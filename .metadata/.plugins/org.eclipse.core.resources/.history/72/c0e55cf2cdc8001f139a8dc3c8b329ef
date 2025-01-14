@@ -1,0 +1,6 @@
+spring.application.name=PaymentService
+server.port=8081
+
+eureka.client.service-url.default-zone=http://localhost:8761
+
+logging.file.name=D:\CODING SPACE\SPRING MICROSERVICE\SBProj_08_ELK_STACK_OrderService\src\main\resources\PaymentLogFile.txt

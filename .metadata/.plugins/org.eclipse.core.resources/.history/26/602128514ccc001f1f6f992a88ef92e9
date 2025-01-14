@@ -1,0 +1,17 @@
+spring.application.name=CloudAPI
+server.port=9090
+
+server.servlet.context-path=/flipkart/
+
+eureka.instance.client.service-url.default-zone=http://localhost:8761/eureka/
+#eureka.instance.client.serviceurl.default-zone=http://localhost:8761/eureka/
+
+spring.cloud.gateway.routes[0].id=Payment-Service
+spring.cloud.gateway.routes[0].uri=http://localhost:8081/
+spring.cloud.gateway.routes[0].predicates[0]=Path=/payment/**
+
+
+
+spring.cloud.gateway.routes[1].id=Search-Service
+spring.cloud.gateway.routes[1].uri=http://localhost:8082/
+spring.cloud.gateway.routes[1].predicates[0]=Path=/search/**

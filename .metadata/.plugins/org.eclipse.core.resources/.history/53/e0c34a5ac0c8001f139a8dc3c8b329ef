@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="SBProj_08_ELK_STACK_OrderService">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <property name="context-root" value="SBProj_08_ELK_STACK_OrderService"/>
+        <property name="java-output-path" value="/SBProj_08_ELK_STACK_OrderService/target/classes"/>
+    </wb-module>
+</project-modules>

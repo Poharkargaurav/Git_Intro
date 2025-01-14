@@ -1,0 +1,9 @@
+spring.application.name=OrderService
+
+server.port=8080
+
+
+logging.file.name=D:\CODING SPACE\SPRING MICROSERVICE\SBProj_08_ELK_STACK_OrderService\src\main\resources\OrderService_log.txt
+
+eureka.client.service-url.default-zone=http://localhost:8761/eureka
+

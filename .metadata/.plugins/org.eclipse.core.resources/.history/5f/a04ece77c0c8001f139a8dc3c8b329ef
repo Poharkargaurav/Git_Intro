@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="SBProj_08_ELK_STACK_PaymentService">
+        <property name="context-root" value="SBProj_08_ELK_STACK_PaymentService"/>
+    </wb-module>
+</project-modules>
